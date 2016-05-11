@@ -22,10 +22,6 @@ public class Dialog : MonoBehaviour {
 		Allfaces = Resources.LoadAll<Sprite>("Faces");
 		Alltexts = Resources.LoadAll<TextAsset>("Dialog");
 		AllDialogsLines = Alltexts[0].text.Split("\n"[0]);
-		SetDialog (0, 0);
-		SetDialog (1, 1);
-		SetDialog (0, 0);
-		SetDialog (1, 1);
 	}
 
 
